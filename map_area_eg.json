@@ -8,7 +8,8 @@
         },
      "export":
         {
-         "format":"json"
+         "format":"json",
+         "target":"."
         }
     },
  "height":40,
@@ -27,7 +28,7 @@
                  "value":"schulung-eg"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -45,7 +46,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -63,7 +64,7 @@
                  "value":"foyer-eg"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -81,7 +82,7 @@
                  "value":"darts-eg"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -99,7 +100,7 @@
                  "value":"kueche-eg"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -117,7 +118,7 @@
                  "value":"meetingraum-eg"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -153,7 +154,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -171,7 +172,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -186,10 +187,10 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/map_area_og.json#start_treppe"
+                 "value":"map_area_og.json#start_treppe"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -204,10 +205,10 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/map_area_og.json#start_feuertreppe"
+                 "value":"map_area_og.json#start_feuertreppe"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -229,7 +230,7 @@
          "height":40,
          "id":2,
          "name":"rooms",
-         "opacity":0.4,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":104,
@@ -243,7 +244,7 @@
          "name":"windows",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -267,7 +268,7 @@
          "name":"furniture2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -279,7 +280,7 @@
          "name":"on table",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -291,7 +292,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -302,7 +303,7 @@
          "name":"override2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":104,
          "x":0,
          "y":0
@@ -2177,5 +2178,5 @@
  "tilewidth":32,
  "type":"map",
  "version":1.4,
- "width":104 
+ "width":104
 }
