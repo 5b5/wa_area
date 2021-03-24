@@ -185,7 +185,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"https:\/\/play.workadventu.re\/_\/5byfive\/5b5.github.io\/wa_area\/map_area_og.json#start_treppe"
                 }],
@@ -203,7 +203,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"https:\/\/play.workadventu.re\/_\/5byfive\/5b5.github.io\/wa_area\/map_area_og.json#start_feuertreppe"
                 }],
